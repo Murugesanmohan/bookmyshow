@@ -1,0 +1,624 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: cursive; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(51, 53, 69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+   
+}
+
+nav div img {
+    height: 50px;
+    width: 120px;
+}
+
+.search {
+    display: flex;
+    gap: 40px;
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+
+
+}
+
+.search input::placeholder {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.in {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.in i {
+    display: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+nav div select {
+    width: 100px;
+    background-color: rgb(51, 53, 69);
+    outline: none;
+    font-size: 20px;
+    color: white;
+    border: none;
+
+}
+
+
+.in button {
+    background-color: crimson;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.in button:hover {
+    background-color: blue;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    nav {
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px;
+    }
+     .search input {
+        display: none;
+    }
+ }
+
+/* ------------------------content 1---------------- */
+.content1 {
+    background-color: rgb(31, 37, 51);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.one,
+.two {
+    display: flex;
+    gap: 20px;
+}
+
+.one i {
+    color: red;
+    margin-top: 5px;
+}
+
+.new {
+    color: red;
+    position: absolute;
+    left: 652px;
+    top: -1px;
+}
+.one span:hover {
+    color: red;
+}
+.two span:hover {
+    color: red;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content1 {
+        display: none;
+    }
+}
+
+/* -----------------content2-------------------------- */
+
+.content2 img {
+    height: 300px;
+    width: 800px;
+
+}
+
+.content2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content2 {
+       
+        width: 100%;
+    }
+    .content2 img {
+        width: 95%;
+        padding-bottom: 10px;
+    }
+
+}
+
+/* ----------------content3----------------- */
+.content3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content3 {
+        width: 100%;
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+    .content3 img {
+        width: 90%;
+        height: 50px;
+    }
+}
+
+/* -----------------content4------------- */
+.content4 {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.content4 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content4 div div {
+    display: flex;
+    gap: 20px;
+}
+
+.content4 div div span {
+    color: red;
+    font-size: 20px;
+}
+#gen {
+    color: red;
+    font-size: 20px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content4 div div {
+        display: none;
+
+    }
+}
+
+
+/* -----------------content5--------------- */
+.content5 {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.content5 .box:hover {
+    transform: scale(1.1,1.1) ;
+    
+}
+
+.box {
+    min-height: 300px;
+    width: 254px;
+    background-color: black;
+    border-radius: 6px;
+    transition: all 0.3s ;
+}
+
+.box img {
+    height: 335px;
+    width: 254px;
+
+}
+
+.thump i {
+    font-size: 25px;
+    color: green;
+}
+
+.star i {
+    font-size: 25px;
+    color: red;
+}
+
+.box div span {
+    color: white;
+}
+
+.star,.thump {
+    padding: 10px 20px;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content5 {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* -----------------content7-------------- */
+.content7 {
+    padding: 10px 90px;
+    margin-top: 20px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content7  {
+        padding: 0;
+        padding: 5px;
+  }
+}
+/*------------------content8------------- */
+.content8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+.people {
+    height: 280px;
+    width: 300px;
+    
+}
+.people div img {
+    height: 280px;
+    width: 300px;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content8 {
+        flex-direction: column;
+        gap: 40px;
+        padding: 10px;
+    }
+}
+/* ---------------content9-------------- */
+.content9 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 70px;
+    background-color: rgb(43, 49, 72);
+    color: white;
+    margin-top: 20px;
+}
+
+.content9 i {
+    font-size: 50px;
+    color: red;
+}
+.content9 div span {
+     padding-top: 10px;
+}
+
+.content9 div h1 {
+    font-size: 45px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content9 {
+        justify-content: center;
+    }
+
+}
+
+
+/* -------------------content10-------------- */
+.content10 {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(43, 49, 72);
+
+}
+
+.content10 div img {
+    height: 360px;
+    width: 250px;
+    position: relative;
+
+
+}
+
+.three {
+    min-height: 300px;
+    width: 250px;
+}
+
+.three div {
+    color: white;
+    padding: 10px;
+}
+
+.prime {
+    display: flex;
+    align-items: end;
+}
+
+.prime p {
+    position: absolute;
+    font-size: 20px;
+    background-image: linear-gradient(to right, darkviolet, blue);
+    padding: 5px 10px;
+    border-radius: 0 15px 0 6px;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content10 {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+/* -------------------content11-------------- */
+.content11 {
+    padding: 40px 50px;
+}
+/* -------------------content12------------ */
+.content12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding: 10px;
+    
+}
+.twelve {
+    min-height: 300px;
+    width: 250px;
+    border-radius: 6px;
+}
+.twelve .voul {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.twelve .chennai  {
+    padding-top: 20px;
+
+}
+
+.twelve img {
+    height: 360px;
+    width: 250px;
+}
+.twelve  p {
+    padding: 8px 10px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content12 {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* ------------------content13---------------- */
+.content13 {
+    padding: 40px 50px;
+    }
+
+/* -------------------content14------------ */
+.content14 {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px 60px;
+}
+.content14 div {
+    border: 2px solid black;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+.content14 div h4 {
+    color: red;
+    font-size: 18px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content14 {
+        padding: 0;
+        padding: 10px;
+    }
+}
+
+/* ------------contect15------------------ */
+.content15 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 30px 50px;
+    margin-top: 40px;
+}
+.content15 .month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.month i {
+    font-size: 45px;
+}
+.month1 button {
+    background-color: crimson;
+    border: none;
+    padding: 10px 13px;
+    font-size: 20px;
+    border-radius: 6px;
+    color: white;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content15  {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .month {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* ------------------content16-------------- */
+.content16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+}
+.customer i{
+    font-size: 45px;
+    padding-left: 70px;
+
+}
+#bag {
+    padding-left: 95px;
+}
+.customer p {
+    font-size: 20px;
+    padding-top: 15px;
+}
+@media screen and (min-width:300px) and (max-width:425px) {
+    .content16 {
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+/* ------------------content17---------- */
+.content17 {
+    
+    color: rgb(153, 153, 153);
+    background-color: black;
+    
+    padding: 10px 80px;
+}
+.content17 .time button {
+    border-width: 0;
+   border-right: 1px solid white;
+    background-color: black;
+    outline: none;
+    color: rgb(153, 153, 153) ;
+    padding: 3px 10px;
+    margin-top: 20px;
+   
+}
+.time h3 {
+    padding-top: 15px;
+}
+
+/* ----------------content18---------------- */
+.content18 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: rgb(153, 153, 153);
+    background-color: black;
+    padding: 10px 80px;
+}
+.content18 div button {
+    border-width: 0;
+    border-right: 1px solid white;
+     background-color: black;
+     color: rgb(153, 153, 153) ;
+     padding: 3px 10px;
+     margin-top: 10px;
+     
+}
+.content18 div h3 {
+    padding-top: 15px;
+}
+/*---------------content19----------------- */
+.content19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: rgb(153, 153, 153);
+    background-color: black;
+    padding: 10px 80px;
+}
+.content19 div button {
+    border-width: 0;
+    border-right: 1px solid white;
+     background-color: black;
+     color: rgb(153, 153, 153) ;
+     padding: 3px 10px;
+     margin-top: 10px;
+}
+.content19 div h3 {
+    padding-top: 15px;
+}
+
+/* -----------------content20----------------- */
+.content20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: rgb(153, 153, 153);
+    background-color: black;
+    padding: 10px 80px;
+}
+.content20 div button {
+    border-width: 0;
+    border-right: 1px solid white;
+     background-color: black;
+     color: rgb(153, 153, 153) ;
+     padding: 3px 10px;
+     margin-top: 10px;
+}
+
+.content20 div h3 {
+    padding-top: 15px;
+}
+/* -------------------content21-------------- */
+.content21 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: rgb(153, 153, 153);
+    background-color: black;
+    padding: 10px 80px;
+}
+.content21 div button {
+    border-width: 0;
+    border-right: 1px solid white;
+     background-color: black;
+     color: rgb(153, 153, 153) ;
+     padding: 3px 10px;
+     margin-top: 10px;
+}
+.content20 div h3 {
+    padding-top: 15px;
+}

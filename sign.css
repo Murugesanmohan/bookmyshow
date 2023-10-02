@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.page {
+    background-color: red;
+    height: 100vh;
+}
+.page video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.opening {
+    height: 700px;
+    width: 600px;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
